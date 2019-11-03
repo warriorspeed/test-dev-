@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dev Education Invited</title>
+    <link rel="icon" href="https://deveducation.com/wp-content/themes/deveducation/assets/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700|Raleway:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/all.min.css">
+</head>
+<body>
+<div class="root">
+    <div class="burger_menu" id="burger_menu">
+        <button class="close_burger" id="close_burger"><img src="src/images/close.jpg" alt="close" id="close_img"></button>
+        <span class="burger_btn"  id="close1" ><a href="#about_us">Про нас</a></span>
+        <span class="burger_btn" id="close2"><a href="#pluses">Курсы</a></span>
+        <span class="burger_btn" id="close3"><a href="#fidback">Отзывы</a></span>
+        <span class="burger_btn" id="close4"><a href="#contact">Контакты</a></span>
+        <div class="lang_brg burger_btn">
+            <span><a href="">ENG</a></span>
+            <span><a href="">RU</a></span>
+            <span><a href="">UA</a></span>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="nav">
+            <a href="https://kyiv.deveducation.com"> <img src="src/images/logoDev.svg" alt="Logotype" class="logo"></a>
+                <ul class="contact">
+                    <li><a href="#about_us">Про нас</a></li>
+                    <li><a href="#pluses">Курсы</a></li>
+                    <li><a href="#fidback">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <ul class="lang__nav">
+                    <li><a href="">ENG</a></li>
+                    <li><a href="">RU</a></li>
+                    <li><a href="">UA</a></li>
+                </ul>
+            <button id="burger"><img src="https://kyiv.deveducation.com/wp-content/themes/deveducation/assets/img/icons/menu.svg" alt="" ></button>
+        </nav>
+        <a name="about_us"></a>
+    </header>
+
+    <section class="HeaderTitle">
+            <div class="hero__text">
+                <h1>Международный IT-колледж приглашает!</h1>
+                <br>
+                <p> Школа <b>Dev Education</b> – образовательный некоммерческий проект, цель которого – обучить всех желающих актуальным IT специальностям.<br> </p>
+                <br>
+                <p> Наша миссия - дать нашим студентам возможность получить
+                    востребованную и высокооплачиваемую профессию в максимально короткий срок.</p>
+                <br>
+                <p> Лучшие выпускники получат приглашения на стажировку в IT-компании и возможность поработать
+                    с реальными современными технологическими проектами. Лучшие стажёры получат приглашение
+                    на работу.
+                </p>
+            </div>
+        <img src="src/images/rabbit1.png" alt="" class="image_title">
+
+    </section>
+    <a name="pluses"></a>
+    <section class="curses">
+        <div class="curses_title">
+            <h2 id="curses_title">Наши курсы:</h2>
+        </div>
+
+        <section>
+            <div class="tab">
+                <div class="tab_tab">
+                    <button class="tablinks" onclick="openCourses(event, 'Java')" id="defaultOpen"><img src=src/images/java.svg>Java</button>
+                    <button class="tablinks" onclick="openCourses(event, 'FrontEnd')"><img src=src/images/frontend.svg>FrontEnd</button>
+                    <button class="tablinks" onclick="openCourses(event, 'Mobile Xamarin')"><img src=src/images/xamarin.svg>Mobile </button>
+                </div>
+                <div class="tab_tab">
+                <button class="tablinks" onclick="openCourses(event, 'Base course (c#)')"><img src=src/images/sharp.svg>Base c#</button>
+                <button class="tablinks" onclick="openCourses(event, 'QA/AT')"><img src=src/images/qa.svg>QA/AT</button>
+                <button class="tablinks" onclick="openCourses(event, 'React Native')"><img src=src/images/react.svg>React</button>
+                </div>
+            </div>
+        </section>
+        <div id="Java" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>4 месяца</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>2 лекции в неделю </p>
+                        </div>
+                    </div>
+
+                <div class="plus_sub">
+                    <div class="plus__icon-wrapper"><img src="src/images/3.svg" alt="icon" class="plus__icon">
+                        <p class="plus__text"><span class="plus__text_color">Время занятий</span>4 часа в день</p>
+                    </div>
+                    <div class="plus__icon-wrapper"><img src="src/images/4.svg" alt="icon" class="curse-bool__icon">
+                        <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                            1200&nbsp;грн/мес</p>
+                    </div>
+                </div>
+                </div>
+                <div class="cureses__text">
+                <p>&#8226; Для поступления на курс необходимо пройти базовое обучение на любом языке программирования, который длится три месяца. Или имея небольшой опыт программирования на любом языке, сдать тесты для выявления уровня знаний.</p>
+
+                <p>&#8226; Вы освоите основные концепции программирования, терминологию и синтаксис Java. Кроме того, вы приобретете основополагающие навыки, которые необходимы разработчику программного обеспечения: от разработки алгоритмов до тестирования и отладки ваших программ. Вы получите опыт работы с базами данных, что позволит создавать полноценные программы для решения сложных задач.</p>
+
+                <p>&#8226; Важную часть программы данного курса составляют практические задания, поэтому вы сможете освоить немало примеров написания кода, научитесь писать чистый код используя современные методологии разработки программного обеспечения и получите реальный опыт компьютерного программирования.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <div id="FrontEnd" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>4 месяца</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>2 лекции в неделю </p>
+                        </div>
+                    </div>
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/3.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Время занятий</span>4 часа в день</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/4.svg" alt="icon" class="curse-bool__icon">
+                            <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                                1200&nbsp;грн/мес</p></div>
+                    </div>
+                </div>
+
+                <div class="cureses__text">
+                    <p>&#8226; Интенсивный курс FrontEnd разработки с акцентом на решение типовых задач современных веб-проектов.</p>
+
+                    <p>&#8226; Принципы курса: со стороны студентов – командная работа в выполнении сложных многоуровневых задач.</p>
+                    <p>&#8226; Со стороны преподавателей – менторство, проработка домашних заданий, выделение важных аспектов изучаемых разделов, помощь и поддержка.</p>
+
+                    <p>&#8226; Курс проводят ведущие разработчики ИТ-компании с опытом разработки крупных веб-приложений. Опыт преподавателей позволяет научить студентов основным принципам программирования для построения успешной карьеры в ИТ-сфере. Во время обучения студентов ждут интересные задания, хакатоны, мастер-классы. Ближе к концу курса у студентов будет возможность принять участие в крупном проекте для закрепления пройденного материала.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <div id="Mobile Xamarin" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>2 месяца</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>3 лекции в неделю </p>
+                        </div>
+                    </div>
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/3.svg" alt="icon" class="plus__icon">
+                        <p class="plus__text"><span class="plus__text_color">Время занятий</span>4 часа в день</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/4.svg" alt="icon" class="curse-bool__icon">
+                            <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                                1200&nbsp;грн/мес</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cureses__text">
+                    <p>&#8226; Хочешь разрабатывать мобильные приложения, но не решил на какой ты стороне? Хватит выбирать между iOS и Android, пора изучить Xamarin! Один проект – все платформы, достаточно знать основы c# или java. Программа построена таким образом, что с самого начала студенты разбирают наиболее используемые компоненты мобильных приложений и получают практические задания.</p>
+
+                    <p>&#8226; Особенностью курса является то, что обучение начинается со знакомства с нативной разработкой под iOS и Android, а по завершении Ты сможешь создавать современные и качественные кроссплатформенные приложения с помощью Xamarin Native.</p>
+                </div>
+            </section>
+
+        </div>
+        <div id="Base course (c#)" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>4 месяца</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>3 лекции в неделю </p>
+                        </div>
+                    </div>
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/3.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Время занятий</span>4 часа в день</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/4.svg" alt="icon" class="curse-bool__icon">
+                            <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                                1200&nbsp;грн/мес</p></div>
+                    </div>
+                </div>
+
+                <div class="cureses__text">
+                    <p>Этот курс даст вам захватывающий первый взгляд на программирование, познакомит с базовыми понятиями и концепциями и заложит концептуальную основу, на которой будет основываться остальная часть обучения. Процесс обучения строится по принципу цепочек модулей: видеолекции – практика – контроль.</p>
+                    <p> <b>Блок видеолекции</b></p>
+                    <p>&#8226; Каждое занятие начинается с тестирования по пройденным темам предыдущих видеоматериалов. Далее идет просмотр одной или нескольких видео лекций, а также включает в себя консультации специалиста по темам видео материала. В отдельных случаях вместо видео материалов осуществляется начитка лекций преподавателем.</p>
+                    <p> <b>Блок практика</b>
+                    </p>&#8226; Данный блок включает разработку проекта, закрепляющего пройденный материал. Проект проверяется представителем школы DevEducation.</p>
+
+                    <p><b>Блок контроль</b></p>
+                    <p>&#8226; По результатам тестирований принимается решение на допуск студента к следующему модулю.</p>
+                </div>
+            </section>
+
+        </div>
+        <div id="QA/AT" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>4 месяца</p>
+                        </div>
+
+                        <div class="plus__icon-wrapper"><img src="images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>2 лекции в неделю </p>
+                        </div>
+                    </div>
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="images/3.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Время занятий</span>4 часа в день</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="images/4.svg" alt="icon" class="curse-bool__icon">
+                            <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                                1200&nbsp;грн/мес</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cureses__text">
+                    <p>&#8226; Курс QA/AT предназначен для начинающих специалистов IT, которые хотят построить свою карьеру в области тестирования программного обеспечения (ПО). Данный курс – преимущественно практический и будет охватывать все основные концепции, используемые при тестировании ПО. Цель данного курса – обучить базовым знаниям и предоставить практические навыки, необходимые с точки зрения тестирования ПО.</p>
+
+                    <p>&#8226; Курс состоит из двух основных направлений: мануальное тестирование и автоматизация тестирования:</p>
+
+                    <p>&#8211;  ввод в основы мануального тестирования, понимание процесса и составление документации применяя теоретические и практические навыки на практике;</p>
+
+                    <p>&#8211;  основы автоматизации, которые охватывают все основные принципы Behavior Driven Development (BDD), включая навыки использования Selenium WebDriver. Также данный курс научит вас реализовывать свою собственную среду тестирования автоматизации.</p>
+                </div>
+            </section>
+        </div>
+        <div id="React Native" class="tabcontent">
+            <section class="plus-section">
+                <div class="plus__bool">
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/1%20.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Длительность курса</span>2 месяца</p>
+                        </div>
+
+                        <div class="plus__icon-wrapper"><img src="src/images/2.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Интенсивность занятий</span>5 лекции в неделю </p>
+                        </div>
+                    </div>
+                    <div class="plus_sub">
+                        <div class="plus__icon-wrapper"><img src="src/images/3.svg" alt="icon" class="plus__icon">
+                            <p class="plus__text"><span class="plus__text_color">Время занятий</span>3 часа в день</p>
+                        </div>
+                        <div class="plus__icon-wrapper"><img src="src/images/4.svg" alt="icon" class="curse-bool__icon">
+                            <p class="plus__text"><span class="plus__text_color">Грант на обучение</span>Покрывает 85% стоимости курса:<br> Студент оплачивает
+                                1200&nbsp;грн/мес</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cureses__text">
+                    <p>Хочешь разрабатывать мобильные приложения, но не знаешь с чего начать?
+                    <p>&#8226; React Native – отличное решение для разработки нативных приложений для мобильных устройств за меньший период времени, чем требуется для создания эквивалентного приложения для iOS (Swift. ) или Android (Java).</p>
+                    <p>&#8226; Вам понравится, что ваши изменения появляются мгновенно на вашем устройстве и не нужно ждать перекомпиляции кода Swift/Java!</p>
+                    <p>&#8226; Этот быстрый цикл обратной связи, наряду с отличной кроссплатформенной поддержкой, это то что вывело React Native в топ, среди любимых инструментов Javascript разработчиков”.</p>
+                    <p>&#8226; Тысячи приложений используют React Native: от устоявшихся компаний из списка Fortune 500, таких как Instagram, AirBnB, Skype, до горячих новых стартапов.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <a name="fidback"></a>
+    <section>
+        <div class="feedback_title">
+            <h2 id="feedback_title">Смотри, а вот и отзывы наших студентов!</h2>
+        </div>
+        <div class="feedback_main">
+            <img src="https://kyiv.deveducation.com/wp-content/themes/deveducation/assets/img/static/hero__notebook.svg" alt="" id="dev_img">
+            <div class="slid">
+            <div class="slider_container">
+                <button class="controls" id="previous">&#10148;</button>
+                <ul class="slider">
+                    <li class="slide showing">
+                        <img src="src/images/gavrilov.jpg" alt="" class="slider_img">
+                        <div class="feedback">
+                             <h2>Александр</h2>
+                            <p><i>"Всем привет! Да, да, всё именно так, как говорят. <b>Dev Education</b>, наверное лучший IT колледж
+                                в Киеве(на планете). Отличные преподаватели которые обеспечивают суперское менторство, поддержку
+                                в трудную минуту и отлично обучают. Но самое главное, что именно сдесь, спустя всего месяц
+                                обучения, ты начинаешь чувствовать тот самый "командный дух" который уже устаканился с твоими
+                                сокурсниками и продолжаешь идти вместе с ними, справляясь с нереально крутыми задачами."</i></p>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="src/images/Chubych.jpg" alt="" class="slider_img">
+                        <div class="feedback">
+                            <h2>Орина</h2>
+                            <p><i>"Самое интересное на кусре - это командные проекты.
+                                Написать калькулятор на трёх языках за два дня - лучший в мире тимбилдинг!"</i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="src/images/kuznecov.jpg" alt="" class="slider_img">
+                        <div class="feedback">
+                            <h2>Сергей</h2>
+                            <p><i>"Мне понравились курсы огромным количеством практических заданий,
+                                благодаря которым материал усваивается намного лучше.
+                                Так же некоторые задание, которые мы делаем в небольших группах.
+                                Это дает нам практические навыки которые невозможно получить проходя
+                                онлайн курсы или что-то типо того. Удобная форма обучения: две лекции в неделю,
+                                и равномерное распределение заданий между лекциями."</i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="src/images/shapoval.jpg" alt="" class="slider_img">
+                        <div class="feedback">
+                            <h2>Дмитрий</h2>
+                            <p><i>
+                                "Dev Education даёт то, что невозможно получить при самостоятельном обучении:
+                                навык решать командой такие задачи, которые сложно выполнить за то же время в одиночку.
+                                Ведь для работы в команде нужно уметь правильно распределять обязанности, просить
+                                и предлагать помощь, когда это необходимо, а также уметь нести отвественность перед
+                                командой и за всю команду. Также, на курсах можно ощутить себя в ситуациях, максимально
+                                схожих с ситуациями при работе в компании."
+                            </i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="src/images/roma.jpg" alt="" class="slider_img">
+                        <div class="feedback">
+                        <h2>Роман</h2>
+                           <p> <i>"Спочатку зроби, а потім ми пояснимо, як треба було робити" - на цих курсах я вперше
+                                зіштовхнувся з подібним підходом до навчання і відмітив для себе його дієвість.
+                                Розуміння матеріалу, що дається на лекціях, набагато глибше, адже ти сам вже намагався
+                                вирішити подібні задачі. До того ж подібний підхід викликає азарт під час виконання роботи,
+                                привчає комунікувати з колегами і опановувати різні технології. Ці курси не просто вчать
+                                програмувати, скоріше вони вчать як бути програмістом."</i>  </p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="controls" id="next">&#10148;</button>
+            </div>
+                <div class="go_to_us">
+                    <h2 id="go_to_us">Скорее, присоединяйся к нам!</h2>
+                </div>
+            <a href="https://kyiv.deveducation.com/courses/"><button id="goToCurse">Записатся на курс</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="contacts_">
+            <h3>Наши контакты</h3>
+            <p><img src="https://kyiv.deveducation.com/wp-content/themes/deveducation/assets/img/static/contacts/icon1.svg" alt=""> &nbsp&nbsp&nbspст. метро Васильковская, ул. Сумская,1</p>
+            <p><img src="https://kyiv.deveducation.com/wp-content/themes/deveducation/assets/img/static/contacts/icon2.svg" alt="">
+                &nbsp&nbsp+38 095 804 59 40 <br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +38 096 405 89 85</p>
+            <p><img src="https://kyiv.deveducation.com/wp-content/themes/deveducation/assets/img/static/contacts/icon3.svg" alt=""> &nbsp&nbsp&nbspinfo@deveducation.com</p>
+        </div>
+        <div class="map">
+        <iframe class="single-contacts__smallframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d635.8712926988684!2d30.4898983!3d50.3947951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8d009ef4235%3A0xe50a343241bb2a04!2z0YPQuy4g0KHRg9C80YHQutCw0Y8sIDEsINCa0LjQtdCyLCDQo9C60YDQsNC40L3QsCwgMDIwMDA!5e0!3m2!1sru!2sde!4v1568365814483!5m2!1sru!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+        </iframe>
+        </div>
+    </section>
+
+    <a name="contact"></a>
+    <footer>
+        <div class="footer_container">
+            <div class="footer-col">
+                <div class="social-bar-wrap">
+                    <a title="Facebook" href="https://www.facebook.com/IT.DevEducation/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a title="Twitter" href="https://vk.com/public179222854" target="_blank"><i class="fab fa-vk"></i></a>
+                    <a title="Pinterest" href="https://www.youtube.com/channel/UCOgVyVrC6Plr8QZK6pom9Bg" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a title="Instagram" href="https://instagram.com/dev.education" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a title="Mail" href="mailto:info@deveducation.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <a href="https://deveducation.com/ua/politika-konfidentsialnosti/">Політика конфіденційності</a>
+            </div>
+            <div class="footer-col"><span>2019</span></div>
+        </div>
+    </footer>
+</div>
+
+
+<!--    <script src="dist/js/init.js"></script>-->
+<script src="src/js/init.js"></script>
+<script>
+    document.getElementById("defaultOpen").click();
+    burgersBtn1.addEventListener('click', function () {
+        burgerMenu.style.display = 'none';
+    });
+    burgersBtn2.addEventListener('click', function () {
+        burgerMenu.style.display = 'none';
+    })
+    burgersBtn3.addEventListener('click', function () {
+        burgerMenu.style.display = 'none';
+    })
+    burgersBtn4.addEventListener('click', function () {
+        burgerMenu.style.display = 'none';
+    })
+</script>
+</html>
